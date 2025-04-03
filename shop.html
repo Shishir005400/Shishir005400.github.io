@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenFit Studio - Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .header {
+            background-color: black;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .header .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .header nav {
+            display: flex;
+            gap: 20px;
+        }
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .join-button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid black;
+            font-size: 14px;
+        }
+        .shop-container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .shop-container h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .product {
+            text-align: center;
+        }
+        .product img {
+            width: 140px;
+            height: auto;
+        }
+        .product p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 20px 40px;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            flex-wrap: wrap;
+        }
+        .footer .left {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer .right {
+            text-align: right;
+        }
+        .payment-options {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .payment-options img {
+            width: 120px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">ZenFit Studio</div>
+        <div class="nav-container">
+            <nav>
+                <a href="#">Membership</a>
+                <a href="#">Shop</a>
+                <a href="#">Location</a>
+                <a href="#">Contact us</a>
+            </nav>
+            <a href="#" class="join-button">JOIN NOW</a>
+        </div>
+    </div>
+   
+    <div class="shop-container">
+        <h2>Just Buy It</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="gym bottle.png" alt="Water Bottle">
+                <p>Water Bottle<br>$13.95</p>
+            </div>
+            <div class="product">
+                <img src="gym bag.png" alt="Gym Bag">
+                <p>Gym Bag<br>$35.95</p>
+            </div>
+            <div class="product">
+                <img src="protein powder.png" alt="Protein Powder">
+                <p>Protein Powder<br>$100</p>
+            </div>
+            <div class="product">
+                <img src="gym gloves.png.png" alt="Fitness Gloves">
+                <p>Fitness Gloves<br>$12.35</p>
+            </div>
+            <div class="product">
+                <img src="gym shoes.png.png" alt="Gym Shoes">
+                <p>Gym Shoes<br>$154</p>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="footer">
+        <div class="left">
+            <p>Copyright© 2025 ZenFit Studio, Auckland.</p>
+            <p>Phone Number: +64 0274325467</p>
+        </div>
+        <div class="right">
+            <div class="payment-options">
+                <span>payment option</span>
+                <img src="payment.png" alt="Payment Options">
+                <p>Privacy Policy</p>
+                <p>COPYRIGHT BODY TEMPLE PTY LTD</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
