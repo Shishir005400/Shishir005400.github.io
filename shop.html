@@ -11,6 +11,7 @@
             padding: 0;
             background-color: white;
         }
+
         .header {
             background-color: black;
             color: white;
@@ -19,24 +20,29 @@
             align-items: center;
             justify-content: space-between;
         }
+
         .nav-container {
             display: flex;
             align-items: center;
             gap: 20px;
         }
+
         .nav-container nav {
             display: flex;
             gap: 20px;
         }
+
         .header .logo {
             font-size: 20px;
             font-weight: bold;
         }
+
         .header nav a {
             color: white;
             text-decoration: none;
             font-size: 16px;
         }
+
         .join-button {
             background-color: white;
             color: black;
@@ -46,14 +52,17 @@
             border: 2px solid black;
             font-size: 14px;
         }
+
         .shop-container {
             text-align: center;
             padding: 40px 20px;
         }
+
         .shop-container h2 {
             font-size: 28px;
             margin-bottom: 30px;
         }
+
         .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -61,17 +70,29 @@
             max-width: 900px;
             margin: auto;
         }
+
         .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
             text-align: center;
+            padding: 10px;
+            min-height: 300px;
+            box-sizing: border-box;
         }
+
         .product img {
             width: 140px;
             height: auto;
         }
+
         .product p {
             font-size: 18px;
-            margin-top: 10px;
+            margin: 10px 0;
+            flex-grow: 1;
         }
+
         .product button {
             background-color: black;
             color: white;
@@ -80,11 +101,13 @@
             font-weight: bold;
             font-size: 14px;
             cursor: pointer;
-            margin-top: 10px;
+            margin-top: auto;
         }
+
         .product button:hover {
             background-color: #333;
         }
+
         .footer {
             background-color: black;
             color: white;
@@ -96,18 +119,22 @@
             font-size: 14px;
             flex-wrap: wrap;
         }
+
         .footer .left {
             display: flex;
             flex-direction: column;
         }
+
         .footer .right {
             text-align: right;
         }
+
         .payment-options {
             display: flex;
             flex-direction: column;
             align-items: flex-end;
         }
+
         .payment-options img {
             width: 120px;
             margin-top: 5px;
